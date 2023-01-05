@@ -1,0 +1,84 @@
+* {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+
+.team-loader-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  padding-top: 50px;
+
+  background-size: cover;
+}
+
+.RCB {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+}
+
+.KKR {
+  background: linear-gradient(to top, #1e293b, #5755a7);
+}
+
+.KXP {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
+}
+
+.CSK {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+
+.RR {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.MI {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+
+.SRH {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+
+.DC {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}
+
+.latest-match {
+  align-self: flex-start;
+}
+
+.recent-matches-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  .team-img {
+    width: 100%;
+  }
+
+  .team-matches-container {
+    padding: 30px;
+  }
+
+  .recent-matches-container {
+    justify-content: center;
+    padding: 0px;
+  }
+}

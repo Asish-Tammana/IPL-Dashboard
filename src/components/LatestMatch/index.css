@@ -1,0 +1,66 @@
+.latest-match-container {
+  background-color: #0f172a;
+  width: 100%;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-container {
+  width: 25%;
+}
+
+.competing-team-sm-logo {
+  display: none;
+}
+
+.line {
+  display: none;
+}
+.right-container {
+  text-align: right;
+  width: 25%;
+}
+
+.competing-team-logo {
+  width: 20%;
+}
+
+@media (max-width: 767px) {
+  .latest-match-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .left-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .right-container {
+    width: 100%;
+    text-align: left;
+  }
+
+  .competing-team-logo {
+    display: none;
+  }
+
+  .competing-team-sm-logo {
+    display: block;
+    width: 20%;
+  }
+
+  .line {
+    display: block;
+    background-color: aliceblue;
+    width: 100%;
+    opacity: inherit;
+  }
+}
